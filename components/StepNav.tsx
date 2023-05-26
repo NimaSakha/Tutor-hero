@@ -32,7 +32,7 @@ const StepNav = ({ steps, objects }: StepNavProps) => {
               <p
                 className={`py-[5px] px-[13.4px] rounded-full bg-neutral-200 ${
                   step[selected] === step[i]
-                    ? "bg-indigo-500 text-white"
+                    ? "bg-indigo-500/100 text-white"
                     : "bg-neutral-200"
                 }`}
               >
