@@ -1,7 +1,7 @@
 import "../globals.css"
 import { Inter } from "next/font/google"
 import Nav from "@/components/Nav"
-import Stepper from "@/components/Stepper"
+
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
